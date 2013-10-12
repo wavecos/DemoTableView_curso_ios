@@ -21,6 +21,13 @@
 		801181D81809A20F00AEF4A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801181BA1809A20F00AEF4A4 /* UIKit.framework */; };
 		801181E01809A20F00AEF4A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 801181DE1809A20F00AEF4A4 /* InfoPlist.strings */; };
 		801181E21809A20F00AEF4A4 /* DemoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801181E11809A20F00AEF4A4 /* DemoTableViewTests.m */; };
+		801181ED1809A2B000AEF4A4 /* Personaje.m in Sources */ = {isa = PBXBuildFile; fileRef = 801181EC1809A2B000AEF4A4 /* Personaje.m */; };
+		801181F51809A46A00AEF4A4 /* donkey-kong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 801181EF1809A46A00AEF4A4 /* donkey-kong.jpg */; };
+		801181F61809A46A00AEF4A4 /* king-bowser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 801181F01809A46A00AEF4A4 /* king-bowser.jpg */; };
+		801181F71809A46A00AEF4A4 /* luigi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 801181F11809A46A00AEF4A4 /* luigi.jpg */; };
+		801181F81809A46A00AEF4A4 /* mario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 801181F21809A46A00AEF4A4 /* mario.jpg */; };
+		801181F91809A46A00AEF4A4 /* toad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 801181F31809A46A00AEF4A4 /* toad.jpg */; };
+		801181FA1809A46A00AEF4A4 /* yoshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 801181F41809A46A00AEF4A4 /* yoshi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,14 @@
 		801181DD1809A20F00AEF4A4 /* DemoTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		801181DF1809A20F00AEF4A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		801181E11809A20F00AEF4A4 /* DemoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewTests.m; sourceTree = "<group>"; };
+		801181EB1809A2B000AEF4A4 /* Personaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personaje.h; sourceTree = "<group>"; };
+		801181EC1809A2B000AEF4A4 /* Personaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Personaje.m; sourceTree = "<group>"; };
+		801181EF1809A46A00AEF4A4 /* donkey-kong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "donkey-kong.jpg"; sourceTree = "<group>"; };
+		801181F01809A46A00AEF4A4 /* king-bowser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "king-bowser.jpg"; sourceTree = "<group>"; };
+		801181F11809A46A00AEF4A4 /* luigi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luigi.jpg; sourceTree = "<group>"; };
+		801181F21809A46A00AEF4A4 /* mario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario.jpg; sourceTree = "<group>"; };
+		801181F31809A46A00AEF4A4 /* toad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toad.jpg; sourceTree = "<group>"; };
+		801181F41809A46A00AEF4A4 /* yoshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoshi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +132,10 @@
 				801181C81809A20F00AEF4A4 /* Main.storyboard */,
 				801181CB1809A20F00AEF4A4 /* ViewController.h */,
 				801181CC1809A20F00AEF4A4 /* ViewController.m */,
+				801181EB1809A2B000AEF4A4 /* Personaje.h */,
+				801181EC1809A2B000AEF4A4 /* Personaje.m */,
 				801181CE1809A20F00AEF4A4 /* Images.xcassets */,
+				801181EE1809A46A00AEF4A4 /* Resources */,
 				801181BD1809A20F00AEF4A4 /* Supporting Files */,
 			);
 			path = DemoTableView;
@@ -150,6 +168,19 @@
 				801181DE1809A20F00AEF4A4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801181EE1809A46A00AEF4A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				801181EF1809A46A00AEF4A4 /* donkey-kong.jpg */,
+				801181F01809A46A00AEF4A4 /* king-bowser.jpg */,
+				801181F11809A46A00AEF4A4 /* luigi.jpg */,
+				801181F21809A46A00AEF4A4 /* mario.jpg */,
+				801181F31809A46A00AEF4A4 /* toad.jpg */,
+				801181F41809A46A00AEF4A4 /* yoshi.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +259,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801181FA1809A46A00AEF4A4 /* yoshi.jpg in Resources */,
+				801181F51809A46A00AEF4A4 /* donkey-kong.jpg in Resources */,
+				801181F81809A46A00AEF4A4 /* mario.jpg in Resources */,
+				801181F61809A46A00AEF4A4 /* king-bowser.jpg in Resources */,
 				801181CF1809A20F00AEF4A4 /* Images.xcassets in Resources */,
 				801181C11809A20F00AEF4A4 /* InfoPlist.strings in Resources */,
+				801181F71809A46A00AEF4A4 /* luigi.jpg in Resources */,
 				801181CA1809A20F00AEF4A4 /* Main.storyboard in Resources */,
+				801181F91809A46A00AEF4A4 /* toad.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				801181CD1809A20F00AEF4A4 /* ViewController.m in Sources */,
+				801181ED1809A2B000AEF4A4 /* Personaje.m in Sources */,
 				801181C71809A20F00AEF4A4 /* AppDelegate.m in Sources */,
 				801181C31809A20F00AEF4A4 /* main.m in Sources */,
 			);

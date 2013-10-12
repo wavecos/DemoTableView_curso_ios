@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Personaje.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSArray *personajes;
 
 @end
