@@ -77,9 +77,10 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    //UITableViewCell *celda = [tableView dequeueReusableCellWithIdentifier:@"personajeCell"];
+    UITableViewCell *celda = [tableView dequeueReusableCellWithIdentifier:@"personajeCell" forIndexPath:indexPath];
     
-    UITableViewCell *celda = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"personajeCell"];
+    // Forma anterior de inicializar una tabla
+    //UITableViewCell *celda = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"personajeCell"];
     
     Personaje *personaje = [self.personajes objectAtIndex:indexPath.row];
     
